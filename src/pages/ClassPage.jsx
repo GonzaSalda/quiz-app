@@ -19,7 +19,7 @@ const ClassPage = () => {
   );
   const [indexQuestion, setIndexQuestion] = useState(0);
   const [activeQuiz, setActiveQuiz] = useState(false);
-  
+
   useEffect(() => {
     const newQuestions = shuffleArray(questionsFiltered);
     SetQuestionsFiltered(newQuestions);
@@ -28,7 +28,7 @@ const ClassPage = () => {
   return (
     <>
       <div
-        className="flex flex-col items-center justify-center gap-10"
+        className="flex flex-col items-center justify-center gap-10 m-10"
         style={{ height: "calc(100vh - 5rem)" }}
       >
         {activeQuiz ? (
