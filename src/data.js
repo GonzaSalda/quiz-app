@@ -1,16 +1,16 @@
 import Warlock from './assets/warlock.jpg';
-import PhantomSummoner from './assets/phantomSummoner.jpg';
-import TresureHunter from './assets/treasureHunter.jpg';
-import SilverRanger from './assets/silverRanger.jpg';
+import PhantomSummoner from './assets/phantomsummoner.jpg';
+import TreasureHunter from './assets/treasurehunter.jpg';
+import SilverRanger from './assets/silverranger.jpg';
 import Sorcer from './assets/sorcer.jpg';
-import SpellSinger from './assets/spellSinger.jpg';
+import SpellSinger from './assets/spellsinger.jpg';
 import Gladiator from './assets/gladiator.jpg';
 
 
 export const imgs = [
 	Warlock,
 	PhantomSummoner,
-    TresureHunter,
+    TreasureHunter,
     SilverRanger,
     Sorcer,
     SpellSinger,
@@ -20,7 +20,7 @@ export const imgs = [
 export const classl2 = {
 	warlock: 'Warlock', 
 	phantomSummoner: 'PhantomSummoner',
-	tresureHunter: 'TresureHunter',
+	treasureHunter: 'TreasureHunter',
 	silverRanger: 'SilverRanger',
 	sorcer: 'Sorcer',
 	spellSinger: 'SpellSinger',
@@ -30,7 +30,7 @@ export const classl2 = {
 const {
     warlock,
     phantomSummoner,
-    tresureHunter,
+    treasureHunter,
     silverRanger,
     sorcer,
     spellSinger,
@@ -67,7 +67,7 @@ export const questions = [
 		id: 3,
 		difficulty: 'Fácil',
 		question: '¿En qué deporte se utiliza un disco?',
-		category: tresureHunter,
+		category: treasureHunter,
 		correct_answer: 'Hockey sobre hielo',
 		incorrect_answers: ['Fútbol', 'Baloncesto', 'Béisbol'],
 	},
@@ -133,7 +133,7 @@ export const questions = [
 		id: 10,
 		difficulty: 'Medio',
 		question: '¿Qué es lo que se mide con la escala de Richter?',
-		category: tresureHunter,
+		category: treasureHunter,
 		correct_answer: 'La magnitud de los terremotos',
 		incorrect_answers: [
 			'La velocidad del sonido',
@@ -204,7 +204,7 @@ export const questions = [
 		id: 17,
 		difficulty: 'Medio',
 		question: '¿Cuál es el país más poblado del mundo?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'China',
 		incorrect_answers: ['India', 'Estados Unidos', 'Brasil'],
 	},
@@ -265,7 +265,7 @@ export const questions = [
 		id: 23,
 		difficulty: 'Medio',
 		question: '¿En qué año terminó la Segunda Guerra Mundial?',
-		category: tresureHunter,
+		category: treasureHunter,
 		correct_answer: '1945',
 		incorrect_answers: ['1939', '1941', '1943'],
 	},
@@ -273,7 +273,7 @@ export const questions = [
 		id: 24,
 		difficulty: 'Fácil',
 		question: '¿Cuál es el planeta más cercano al Sol?',
-		category: tresureHunter,
+		category: treasureHunter,
 		correct_answer: 'Mercurio',
 		incorrect_answers: ['Venus', 'Marte', 'Júpiter'],
 	},
@@ -282,7 +282,7 @@ export const questions = [
 		difficulty: 'Medio',
 		question:
 			"¿Qué escritor es conocido por haber escrito 'Cien años de soledad'?",
-		category: tresureHunter,
+		category: treasureHunter,
 		correct_answer: 'Gabriel García Márquez',
 		incorrect_answers: [
 			'Jorge Luis Borges',
@@ -320,7 +320,7 @@ export const questions = [
 		difficulty: 'Medio',
 		question:
 			'¿Qué jugador de fútbol ha ganado más Balones de Oro en la SpellSinger?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'Lionel Messi',
 		incorrect_answers: [
 			'Cristiano Ronaldo',
@@ -516,7 +516,7 @@ export const questions = [
 		id: 47,
 		difficulty: 'Medio',
 		question: '¿Cuál fue la primera dinastía en gobernar en China?',
-		category: SpellSinger,
+		category: Gladiator,
 		correct_answer: 'Xia',
 		incorrect_answers: ['Han', 'Tang', 'Song'],
 	},
@@ -524,7 +524,7 @@ export const questions = [
 		id: 48,
 		difficulty: 'Fácil',
 		question: '¿Quién escribió la obra "Don Quijote de la Mancha"?',
-		category: Gladiator,
+		category: SpellSinger,
 		correct_answer: 'Miguel de Cervantes',
 		incorrect_answers: [
 			'Gabriel García Márquez',
@@ -574,7 +574,7 @@ export const questions = [
 		difficulty: 'Medio',
 		question:
 			'¿Cuál de las siguientes obras no fue escrita por William Shakespeare?',
-		category: Gladiator,
+		category: SilverRanger,
 		correct_answer: 'Moby Dick',
 		incorrect_answers: ['Hamlet', 'Macbeth', 'Otelo'],
 	},
@@ -608,7 +608,7 @@ export const questions = [
 		id: 55,
 		difficulty: 'Difícil',
 		question: '¿Cuál es el país más grande de África?',
-		category: SilverRanger,
+		category: Gladiator,
 		correct_answer: 'Argelia',
 		incorrect_answers: [
 			'Sudán',
@@ -660,7 +660,7 @@ export const questions = [
 		id: 61,
 		difficulty: 'Medio',
 		question: '¿Cuál es el país más extenso de África?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'Argelia',
 		incorrect_answers: ['Nigeria', 'Egipto', 'Sudáfrica'],
 	},
@@ -668,7 +668,7 @@ export const questions = [
 		id: 62,
 		difficulty: 'Fácil',
 		question: '¿Qué país ganó la Copa Mundial de la FIFA en 2018?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'Francia',
 		incorrect_answers: ['Alemania', 'Brasil', 'Argentina'],
 	},
@@ -676,7 +676,7 @@ export const questions = [
 		id: 63,
 		difficulty: 'Fácil',
 		question: '¿Qué deporte se juega en Wimbledon?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'Tenis',
 		incorrect_answers: ['Golf', 'Fútbol', 'Rugby'],
 	},
@@ -694,7 +694,7 @@ export const questions = [
 		difficulty: 'Medio',
 		question:
 			'¿Cuál es el jugador de baloncesto con más anillos de campeonato en la NBA?',
-		category: Warlock,
+		category: Gladiator,
 		correct_answer: 'Bill Russell',
 		incorrect_answers: [
 			'Michael Jordan',
@@ -716,7 +716,7 @@ export const questions = [
 		difficulty: 'Difícil',
 		question:
 			'¿En qué año se celebraron los Juegos Olímpicos de Beijing?',
-		category: Warlock,
+		category: Gladiator,
 		correct_answer: '2008',
 		incorrect_answers: ['2012', '2004', '2016'],
 	},
@@ -725,7 +725,7 @@ export const questions = [
 		difficulty: 'Difícil',
 		question:
 			'¿Quién es el máximo goleador en la SpellSinger de la Liga Española?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'Lionel Messi',
 		incorrect_answers: [
 			'Cristiano Ronaldo',
@@ -737,13 +737,13 @@ export const questions = [
 		id: 69,
 		difficulty: 'Difícil',
 		question: '¿En qué deporte se utiliza el término "smash"?',
-		category: TresureHunter,
+		category: TreasureHunter,
 		correct_answer: 'Bádminton',
 		incorrect_answers: ['Voleibol', 'Tenis', 'Squash'],
 	},
 	{
 		id: 70,
-		category: TresureHunter,
+		category: TreasureHunter,
 		difficulty: 'Fácil',
 		question: '¿Cuál es la obra más conocida de Platón?',
 		correct_answer: 'La República',
